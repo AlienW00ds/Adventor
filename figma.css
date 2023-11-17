@@ -1,0 +1,348 @@
+@import url('https://fonts.googleapis.com/css2?family=Mansalva&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Palanquin+Dark:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+
+* {
+    margin: 0 ;
+    padding: 0 ;
+    box-sizing: border-box ;
+   
+  }
+
+
+  .Hero{
+    background-image: url(./Rectangle\ 6.svg);
+    height: 35rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+  }
+
+  .Herohead {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    font-size: 1rem;
+    font-weight: 600;
+    /* width: 100%; */
+  }
+
+ .Herohead h3 {
+    font-size: 2rem;
+ }
+
+
+ul {
+display: flex;
+list-style: none;
+justify-content: end;
+gap: 1rem;
+/* padding-right: 4rem; */
+align-items: center; 
+  }
+
+  ul > button{
+    background-color: #EFAB29;
+    color: white;
+    width: 5rem;
+    border: none;
+    height: 2rem;
+    /* margin-bottom: 1rem; */
+  }
+
+  .Hero > div:nth-child(2){
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 5rem;
+  }
+
+  .para{
+    padding-left: 28rem;
+    padding-right: 28rem;
+  }
+
+.Hero1 > button{
+margin-top: 1rem;
+background-color: #EFAB29;
+color: white;
+border: none;
+width: 8rem;
+height: 2rem;
+}
+
+/* .Herohead {
+    font-size: 2rem;
+    font-weight: 600;
+    padding-top: 1rem;
+    padding-left: 4rem;
+   
+} */
+
+.Hero1 > h1 {
+    font-size: 4rem;
+    font-family: 'Palanquin Dark', sans-serif;
+
+}
+
+.Hero1 h2 {
+    font-size: 48px;
+    font-weight: 400;
+    font-family: 'Mansalva', sans-serif;
+    padding-bottom: -2rem;
+}
+
+.Hero1  p {
+    font-family: 'Jost', sans-serif;
+    font-size: small;
+    line-height: 1.5rem;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(4,2fr);
+    padding: 4rem;
+}
+
+
+.Rectangle{
+    display: flex;
+    padding: 4rem;
+    height: 45rem;
+    
+}
+
+.Rectangle > div:nth-child(1){
+    background-color: #EFFCF1;
+    height: 25rem;
+    width: 39rem;
+    padding: 3rem;
+    margin-left: 3rem;
+}
+
+.Rectangle div:nth-child(2) > img{
+    width: 45rem;
+    position: relative;
+    top: 9rem;
+    right: 2rem;
+}
+
+.Rectangle h2{
+    font-size: 2.5rem;
+    font-weight: 600;
+    font-family: 'Palanquin Dark', sans-serif;
+}
+
+.Rectangle p{
+    font-family: 'Jost', sans-serif;
+    font-size: small;
+    line-height: 1.5rem;
+}
+
+.Rectangleback{
+    background-image: url(./Rectangle\ 7.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.butt{
+    background-color: #EFAB29;
+    border: none;
+    width: 15rem;
+    height: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.contain{
+    width: 20rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+.Rectangleback h4{
+    font-family:'Mansalva', sans-serif ;
+    color: #22CDFF;
+    font-size: 1.5rem;
+}
+
+.Rectangleback h2 {
+    font-family: 'Palanquin Dark', sans-serif;
+    font-size: 2rem;
+}
+
+.take{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 2rem;
+    padding-top: 3rem;
+}
+
+.group{
+    display: flex;
+    /* gap: 7rem; */
+    justify-content: space-between;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+
+.Rectangleback p{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-family: 'Jost', sans-serif;
+}
+
+.image{
+    width: 15rem;
+}
+
+.Testimonials{
+    background-color: #EFFCF1;
+}
+
+.vec{
+    position: relative;
+    left: 1rem;
+}
+
+.Testiflex{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    padding: 3rem;
+}
+
+
+.Testipos{
+    position: relative;
+    top: 7rem;
+    left: 15rem ;
+}
+
+.Testiposi{
+    position: relative;
+    top: 7rem;
+    right: 15rem ;
+}
+
+.Testimonials h4{
+    font-family:'Mansalva', sans-serif ;
+    color: #22CDFF;
+    font-size: large;
+}
+
+.Testimonials h5 {
+    font-family: 'Palanquin Dark', sans-serif;
+    font-size: large;
+}
+
+.Testimonials h6{
+    font-family: 'Jost', sans-serif;
+    font-size: large;
+    font-weight: 400;
+}
+
+.Testimonials h3 {
+    font-family: 'Palanquin Dark', sans-serif;
+    font-size: xx-large;
+    padding-bottom: 1rem;
+}
+
+.Testimonials p{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-family: 'Jost', sans-serif;
+    padding-left: 22rem;
+    padding-right: 22rem;
+}
+
+
+span{
+    color: red;
+    font-family: 'Jost', sans-serif;
+}
+
+footer{
+    background-color: #0E2911;
+    color: white;
+    overflow: hidden;
+}
+
+.foot{
+    display: flex;
+    flex-direction: row;
+    padding: 3rem;
+    justify-content: space-between;
+}
+
+.foote{
+    width: 20rem;
+}
+
+.Menu{
+    position: relative;
+    left: 5rem;
+}
+
+.footflex{
+    display: flex;
+    gap: 2rem;
+}
+
+footer p{
+    font-family: 'Jost', sans-serif;
+    font-size: small;
+    line-height: 1.5rem;
+}
+
+footer h4{
+    padding-bottom: 1rem;
+    font-family: 'Palanquin Dark', sans-serif;
+}
+
+footer h5{
+    font-family: 'Palanquin Dark', sans-serif;
+    padding-bottom: 1rem;
+}
+
+footer button{
+    background-color: #EFAB29;
+    border: none;
+   color: #FDFEFF;
+    height: 1.5rem;
+    width: 7rem;
+    /* margin-bottom: 2rem; */
+    position: relative;
+    right: 7.5rem;
+}
+.Subscribe{
+    position: relative;
+    left: 7rem ;
+}
+footer input{
+    width: 20rem;
+    height: 2rem;
+}
+
+.icons{
+    padding: 1rem;
+    display: flex;
+    gap: 1.5rem;
+    justify-content: flex-end;
+    margin-right: 1.6rem;
+}
+
+.icons h6{
+    font-family: 'Jost', sans-serif;
+    font-size: small;
+    line-height: 1.5rem;
+}
+
+hr{
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
